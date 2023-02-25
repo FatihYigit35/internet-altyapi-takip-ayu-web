@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/Style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>İnternet Altyapı Takip - Şebeke abone saha kutuları listesi</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="homepage-div">
+            <a href="index.html">
+                <img class="homepage-img" src="src/img/homepage.png" alt="index.html">
+            </a>
+        </div>
+
+        <div class="main-div">
+            <div class="head-div">
+                <h2 class="head2-index ">İnternet Altyapı Takip<br>Uygulaması</h2>
+                <h3 class="head2-index ">Şebeke abone saha kutuları listesi</h3>
+                <hr>
+
+            </div>
+            <div class="main-div2">
+                <div class="box">
+                    <input type="text" id="textNew" name="textYeni" placeholder="Yeni şebeke abone saha kutusu girin..."><br>
+                    <button id="newBtn">Şebeke abone saha kutusu ekle</button>
+                </div>
+                <hr>
+                <div class="box">
+                    <select id="selS">
+                        <option value="">Şebeke abone saha kutusu seçin...</option>
+                    </select><br>
+                    <button id="delBtn">Şebeke abone saha kutusu sil</button>
+                </div>
+                <hr>
+                <table class="tableListSel">
+                    <thead>
+                        <th class="thS1">SN</th>
+                        <th class="thS2">Şebeke Abone Saha Kutuları</th>
+                    </thead>
+
+                    <tbody id="tbody1"></tbody>
+
+                </table>
+                <hr>
+
+            </div>
+
+            <div id="footer">
+                <div class="person">
+                    <p><b>Fatih YİĞİT</b> <br>tarafından tasarlanmıştır.</p>
+                </div>
+                <div class="contact">
+                    <a href="https://www.facebook.com/fatihyigit35" target="_blank">
+                        <img class="contact-img" src="src/img/facebook.png" alt="https://www.facebook.com/fatihyigit35"></a>
+                    <a href="https://www.instagram.com/fatih.yigit.35" target="_blank">
+                        <img class="contact-img" src="src/img/instagram.png" alt="https://www.instagram.com/fatih.yigit.35"></a>
+                    <a href="https://wa.me/905363011118" target="_blank">
+                        <img class="contact-img" src="src/img/whatsapp.png" alt="https://wa.me/905363011118"></a>
+                    <a href="mailto:fatih.yigit.35@gmail.com" target="_blank">
+                        <img class="contact-img" src="src/img/e-posta.png" alt="mailto:fatih.yigit.35@gmail.com"></a>
+                    <a href="tel:+905363011118" target="_blank">
+                        <img class="contact-img" src="src/img/phone.png" alt="+905363011118"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/js/listSelAboneSahaKutulari.js"></script>
+
+</body>
+
+</html>
